@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  username: "TeKyLo",
+  title: "Hola, Soy José Antonio",
+  subTitle: emoji("Desde pequeño me apasionaba el mundo de la informática y ahora puedo trabajar de lo que disfruto 🤘 Tengo experiencia construyendo Web and Aplicaciones con JavaScript / Reactjs / PHP y algunas otras bibliotecas y frameworks."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
@@ -17,14 +17,12 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram and Twitter are also supported in the links!
+  github: "https://github.com/tekylo",
+  linkedin: "https://www.linkedin.com/in/jos%C3%A9-antonio-lopez-molina-9881a8aa/",
+  gmail: "lopezmolinaja@gmail.com",
+  gitlab: "https://gitlab.com/TeKyLo",
+  stackoverflow: "https://stackoverflow.com/users/7821148/jose-antonio",
+  twitter: "https://twitter.com/tekylo",
   display: true // Set true to display this section, defaults to false
 };
 
