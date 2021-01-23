@@ -1,9 +1,9 @@
-﻿/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
 
 import emoji from 'react-easy-emoji';
-import cv from './assets/pdf/CV diciembre 2020.pdf'
+import cv from './assets/pdf/CV diciembre 2020.pdf';
 
 const illustration = {
   animated: true, // set to false to use static SVG
@@ -11,9 +11,9 @@ const illustration = {
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "TeKyLo",
-  title: "Hola, Soy José Antonio",
-  subTitle: emoji("Desde pequeño me apasionaba el mundo de la informática y ahora puedo trabajar de lo que disfruto 🤘 Tengo experiencia construyendo Web y Aplicaciones con JavaScript / Reactjs / PHP y algunas otras bibliotecas y frameworks."),
+  username: 'TeKyLo',
+  title: 'Hola, Soy José Antonio',
+  subTitle: emoji('Desde pequeño me apasionaba el mundo de la informática y ahora puedo trabajar de lo que disfruto 🤘 Tengo experiencia construyendo Web y Aplicaciones con JavaScript / React / PHP y algunas otras bibliotecas y frameworks.'),
   resumeLink: cv,
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
@@ -21,27 +21,27 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/tekylo",
-  linkedin: "https://www.linkedin.com/in/jos%C3%A9-antonio-lopez-molina-9881a8aa/",
-  gmail: "lopezmolinaja@gmail.com",
-  gitlab: "https://gitlab.com/TeKyLo",
-  stackoverflow: "https://stackoverflow.com/users/7821148/jose-antonio",
-  twitter: "https://twitter.com/tekylo",
-  display: true // Set true to display this section, defaults to false
+  github: 'https://github.com/tekylo',
+  linkedin: 'https://www.linkedin.com/in/jos%C3%A9-antonio-lopez-molina-9881a8aa/',
+  gmail: 'lopezmolinaja@gmail.com',
+  gitlab: 'https://gitlab.com/TeKyLo',
+  stackoverflow: 'https://stackoverflow.com/users/7821148/jose-antonio',
+  twitter: 'https://twitter.com/tekylo',
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'FULL STACK DEVELOPER',
+  subTitle: 'Algunas tecnologías usadas',
   skills: [
     emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Siempre queriendo explorar nuevas tecnologías.',
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+    emoji('⚡ En mi tiempo libre desarrollo de páginas web a medida.',),
     emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Aplico buenas prácticas, estándares de código, principios SOLID, metodologías ágiles y WPO.',
     ),
   ],
 
@@ -50,39 +50,43 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: 'html-5',
+      skillName: 'HTML5',
       fontAwesomeClassname: 'fab fa-html5',
     },
     {
-      skillName: 'css3',
+      skillName: 'CSS3',
       fontAwesomeClassname: 'fab fa-css3-alt',
     },
     {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
+      skillName: 'PHP',
+      fontAwesomeClassname: 'fab fa-php',
     },
     {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'fab fa-js',
     },
     {
-      skillName: 'reactjs',
+      skillName: 'React',
       fontAwesomeClassname: 'fab fa-react',
     },
     {
-      skillName: 'nodejs',
+      skillName: 'Node.js',
       fontAwesomeClassname: 'fab fa-node',
     },
     {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
+      skillName: 'Angular',
+      fontAwesomeClassname: 'fab fa-angular',
+    },
+    {
+      skillName: 'Symfony',
+      fontAwesomeClassname: 'fab fa-symfony',
     },
     {
       skillName: 'npm',
       fontAwesomeClassname: 'fab fa-npm',
     },
     {
-      skillName: 'sql-database',
+      skillName: 'SQL-MongoDB',
       fontAwesomeClassname: 'fas fa-database',
     },
     {
@@ -90,16 +94,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-aws',
     },
     {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
+      skillName: 'Jenkins',
+      fontAwesomeClassname: 'fab fa-jenkins',
     },
     {
-      skillName: 'python',
+      skillName: 'R Project',
+      fontAwesomeClassname: 'fab fa-r-project',
+    },
+    {
+      skillName: 'Python',
       fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'docker',
+      skillName: 'Docker',
       fontAwesomeClassname: 'fab fa-docker',
+    },
+    {
+      skillName: 'Git',
+      fontAwesomeClassname: 'fab fa-git-alt',
+    },
+    {
+      skillName: 'Jira',
+      fontAwesomeClassname: 'fab fa-jira',
+    },
+    {
+      skillName: 'Bitbucket',
+      fontAwesomeClassname: 'fab fa-bitbucket',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -136,11 +156,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      Stack: 'Frontend/Design', // Insert stack or technology you have experience in
+      progressPercentage: '90%', // Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
@@ -157,7 +177,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
       role: 'Software Engineer',
@@ -195,9 +215,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "tekylo", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile : "true",  // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  githubUserName: 'tekylo', // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -310,7 +330,7 @@ const blogSection = {
 const talkSection = {
   title: 'TALKS',
   subtitle: emoji(
-      'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅'
+    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅',
   ),
 
   talks: [
@@ -348,7 +368,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: 'twitter', //Replace "twitter" with your twitter username without @
+  userName: 'twitter', // Replace "twitter" with your twitter username without @
   display: true, // Set true to display this section, defaults to false
 };
 

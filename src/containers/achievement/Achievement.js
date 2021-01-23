@@ -1,9 +1,10 @@
-import React, { useContext } from "react";
-import "./Achievement.css";
-import AchievementCard from "../../components/achievementCard/AchievementCard";
-import { achievementSection } from "../../portfolio";
-import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+import React, { useContext } from 'react';
+import './Achievement.css';
+import { Fade } from 'react-reveal';
+import AchievementCard from '../../components/achievementCard/AchievementCard';
+import { achievementSection } from '../../portfolio';
+import StyleContext from '../../contexts/StyleContext';
+
 export default function Achievement() {
   const { isDark } = useContext(StyleContext);
   if (!achievementSection.display) {
@@ -17,8 +18,8 @@ export default function Achievement() {
             <h1
               className={
                 isDark
-                  ? "dark-mode heading achievement-heading"
-                  : "heading achievement-heading"
+                  ? 'dark-mode heading achievement-heading'
+                  : 'heading achievement-heading'
               }
             >
               {achievementSection.title}
@@ -26,28 +27,26 @@ export default function Achievement() {
             <p
               className={
                 isDark
-                  ? "dark-mode subTitle achievement-subtitle"
-                  : "subTitle achievement-subtitle"
+                  ? 'dark-mode subTitle achievement-subtitle'
+                  : 'subTitle achievement-subtitle'
               }
             >
               {achievementSection.subtitle}
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card,i) => {
-              return (
-                <AchievementCard
-                  key={i}
-                  isDark={isDark}
-                  cardInfo={{
-                    title: card.title,
-                    description: card.subtitle,
-                    image: card.image,
-                    footer: card.footerLink,
-                  }}
-                />
-              );
-            })}
+            {achievementSection.achievementsCards.map((card, i) => (
+              <AchievementCard
+                key={i}
+                isDark={isDark}
+                cardInfo={{
+                  title: card.title,
+                  description: card.subtitle,
+                  image: card.image,
+                  footer: card.footerLink,
+                }}
+              />
+            ))}
           </div>
         </div>
       </div>

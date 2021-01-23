@@ -36,7 +36,7 @@ function Header() {
           htmlFor="menu-btn"
           style={{ color: 'white' }}
         >
-          <span className={isDark ? 'navicon navicon-dark' : 'navicon'}></span>
+          <span className={isDark ? 'navicon navicon-dark' : 'navicon'} />
         </label>
         <ul className={isDark ? 'dark-menu menu' : 'menu'}>
           {viewSkills && (
@@ -64,11 +64,11 @@ function Header() {
               <a href="#blogs">Educación</a>
             </li>
           )}
-          {/*{viewTalks && (*/}
-          {/*  <li>*/}
-          {/*    <a href="#talks">Talks</a>*/}
-          {/*  </li>*/}
-          {/*)}*/}
+          {/* {viewTalks && ( */}
+          {/*  <li> */}
+          {/*    <a href="#talks">Talks</a> */}
+          {/*  </li> */}
+          {/* )} */}
           <li>
             <a href="#contact">Contacto</a>
           </li>
