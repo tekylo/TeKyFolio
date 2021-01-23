@@ -1,11 +1,17 @@
-﻿import React, { useContext } from "react";
-import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
-import StyleContext from "../../contexts/StyleContext";
+import React, { useContext } from 'react';
+import { Fade } from 'react-reveal';
+import emoji from 'react-easy-emoji';
+import './Greeting.css';
+import landingPerson from '../../assets/lottie/landingPerson';
+import developer from '../../assets/lottie/developer-at-work.json';
+import software from '../../assets/lottie/software-development.json';
+import DisplayLottie from '../../components/displayLottie/DisplayLottie';
+import ManOnTable from '../../assets/images/manOnTable.svg';
+import programmer from '../../assets/images/programmer.svg';
+import SocialMedia from '../../components/socialMedia/SocialMedia';
+import Button from '../../components/button/Button';
+import { illustration, greeting } from '../../portfolio';
+import StyleContext from '../../contexts/StyleContext';
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -16,37 +22,42 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+                className={isDark ? 'dark-mode greeting-text' : 'greeting-text'}
               >
-                {" "}
-                {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                {' '}
+                {greeting.title}
+                {' '}
+                <span className="wave-emoji">{emoji('👋')}</span>
               </h1>
               <p
                 className={
-                  isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
-                }
+                      isDark
+                        ? 'dark-mode greeting-text-p'
+                        : 'greeting-text-p subTitle'
+                    }
               >
                 {greeting.subTitle}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contacto" href="#contact" />
                 <Button
-                  text="See my resume"
-                  newTab={true}
+                  text="Descargar CV"
+                  newTab
                   href={greeting.resumeLink}
                 />
               </div>
             </div>
           </div>
           <div className="greeting-image-div">
+            {/* {illustration.animated ? ( */}
+            {/*    <DisplayLottie animationData={software} /> */}
+            {/* ) : ( */}
             <img
-              alt="saad sitting on table"
-              src={require("../../assets/images/manOnTable.svg")}
-            ></img>
+              alt="man sitting on table"
+              src={programmer}
+            />
+            {/* )} */}
           </div>
         </div>
       </div>

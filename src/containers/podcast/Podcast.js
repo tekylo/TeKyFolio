@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import "./Podcast.css";
-import { podcastSection } from "../../portfolio";
-import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+import React, { useContext } from 'react';
+import './Podcast.css';
+import { Fade } from 'react-reveal';
+import { podcastSection } from '../../portfolio';
+import StyleContext from '../../contexts/StyleContext';
 
 export default function Podcast() {
   const { isDark } = useContext(StyleContext);
@@ -17,28 +17,26 @@ export default function Podcast() {
           <p
             className={
               isDark
-                ? "dark-mode podcast-header-subtitle"
-                : "subTitle podcast-header-subtitle"
+                ? 'dark-mode podcast-header-subtitle'
+                : 'subTitle podcast-header-subtitle'
             }
           >
             {podcastSection.subtitle}
           </p>
         </div>
         <div className="podcast-main-div">
-          {podcastSection.podcast.map((podcastLink,i) => {
-            return (
-              <div
-                key={i}
-              >
-                <iframe
-                  className="podcast"
-                  src={podcastLink}
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
-              </div>
-            );
-          })}
+          {podcastSection.podcast.map((podcastLink, i) => (
+            <div
+              key={i}
+            >
+              <iframe
+                className="podcast"
+                src={podcastLink}
+                frameBorder="0"
+                scrolling="no"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </Fade>

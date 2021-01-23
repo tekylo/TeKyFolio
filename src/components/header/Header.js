@@ -9,7 +9,7 @@ import {
   skillsSection,
   openSource,
   blogSection,
-  talkSection,
+  // talkSection,
   achievementSection,
 } from '../../portfolio';
 
@@ -20,7 +20,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  // const viewTalks = talkSection.display;
 
   return (
     <Headroom>
@@ -28,7 +28,7 @@ function Header() {
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          <span className="grey-color"> /&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -36,41 +36,41 @@ function Header() {
           htmlFor="menu-btn"
           style={{ color: 'white' }}
         >
-          <span className={isDark ? 'navicon navicon-dark' : 'navicon'}></span>
+          <span className={isDark ? 'navicon navicon-dark' : 'navicon'} />
         </label>
         <ul className={isDark ? 'dark-menu menu' : 'menu'}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">Conocimientos</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Experiencia</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#opensource">Proyectos</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Cursos</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#blogs">Educación</a>
             </li>
           )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}
+          {/* {viewTalks && ( */}
+          {/*  <li> */}
+          {/*    <a href="#talks">Talks</a> */}
+          {/*  </li> */}
+          {/* )} */}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contacto</a>
           </li>
           <li>
             <a>

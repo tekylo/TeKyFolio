@@ -1,22 +1,21 @@
-import React, { Suspense, setState, useContext } from "react";
-import "./twitter.css";
-import Loading from "../loading/Loading";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
-import { twitterDetails } from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
+import React, { Suspense, useContext } from 'react';
+import './twitter.css';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import Loading from '../loading/Loading';
+import { twitterDetails } from '../../portfolio';
+import StyleContext from '../../contexts/StyleContext';
 
 const renderLoader = () => <Loading />;
-const cantDisplayError =
-  "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+const cantDisplayError = "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 
 function timeOut() {
-  setTimeout(function () {
-    if (!document.getElementById("twitter").innerHTML.includes("iframe")) {
-      document.getElementById("twitter").innerHTML = cantDisplayError;
+  setTimeout(() => {
+    if (!document.getElementById('twitter').innerHTML.includes('iframe')) {
+      document.getElementById('twitter').innerHTML = cantDisplayError;
     }
   }, 10000);
 }
-var widthScreen = window.screen.width;
+const widthScreen = window.screen.width;
 
 export default function Twitter() {
   const { isDark } = useContext(StyleContext);
@@ -33,16 +32,15 @@ export default function Twitter() {
               placeholder={renderLoader()}
               autoHeight={false}
               borderColor="#fff"
-              key={isDark ? "1" : "2"}
-              theme={isDark ? "dark" : "light"}
-              noFooter={true}
+              key={isDark ? '1' : '2'}
+              theme={isDark ? 'dark' : 'light'}
+              noFooter
               onload={timeOut()}
             />
           </div>
         </div>
       </Suspense>
     );
-  } else {
-    return null;
   }
+  return null;
 }
