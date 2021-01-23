@@ -131,24 +131,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-          'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+      schoolName: 'Universidad de Jaén',
+      logo: require('./assets/images/ujaen.png'),
+      subHeader: 'Grado en Ingeniería informática',
+      duration: '2012 - 2017',
+      desc: '',
+      descBullets: [],
     },
   ],
 };
@@ -242,7 +230,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji('Achievements And Certifications 🏆 '),
+  title: emoji('Cursos y Certificaciones'),
   subtitle:
       'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
 
@@ -361,14 +349,14 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
       'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+  number: '687873208',
+  emailAddress: 'lopezmolinaja@gmail.com',
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: 'twitter', // Replace "twitter" with your twitter username without @
+  userName: 'tekylo', // Replace "twitter" with your twitter username without @
   display: true, // Set true to display this section, defaults to false
 };
 
