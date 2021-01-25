@@ -28,7 +28,7 @@ export default class Main extends Component {
   }
 
   componentDidMount() {
-    const darkPref = window.matchMedia("(prefers-color-scheme: light)");
+    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
     this.setState({ isDark: darkPref.matches });
   }
   changeTheme = () => {
@@ -44,10 +44,11 @@ export default class Main extends Component {
           <Header />
           <Greeting />
           <Skills />
-          <StackProgress />
+          {/*<StackProgress />*/}
           <Education />
-          <Achievement />
+
           <WorkExperience />
+          <Achievement />
           <Projects />
           <StartupProject />
           {/*<Blogs />*/}

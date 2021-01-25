@@ -132,7 +132,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: 'Universidad de Jaén',
-      logo: require('./assets/images/ujaen.png'),
+      logo: require('./assets/images/Escudo UJA br17.gif'),
       subHeader: 'Grado en Ingeniería informática',
       duration: '2012 - 2017',
       desc: '',
@@ -236,52 +236,86 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: 'React + Redux',
       subtitle:
-          'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
+          'Curso presencial de 30 horas impartido por Fictizia.',
+      image: require('./assets/images/react-redux.svg'),
       footerLink: [
         {
-          name: 'Certification',
+          name: 'Certificación',
           url:
-              'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
-        },
-        {
-          name: 'Award Letter',
-          url:
-              'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
-        },
-        {
-          name: 'Google Code-in Blog',
-          url:
-              'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
-        },
+              'https://www.dropbox.com/s/ndf5xtl68ocowjf/DIPLOMA%20REACT%20Jos%C3%A9%20Antonio%20L%C3%B3pez%20Molina.pdf?dl=0',
+        }
       ],
     },
     {
-      title: 'Google Assistant Action',
+      title: 'Magento 2',
       subtitle:
-          'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+          'Curso presencial de 40 horas impartido por Training IT.',
+      image: require('./assets/images/magento.svg'),
       footerLink: [
         {
-          name: 'View Google Assistant Action',
+          name: 'Certificación',
           url:
-              'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
-        },
+              '',
+        }
       ],
     },
-
     {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
+      title: 'Mongo DB + Node.js',
+      subtitle: 'Curso presencial de 20 horas impartido por Training IT.',
+      image: require('./assets/images/node.png'),
       footerLink: [
-        { name: 'Certification', url: '' },
-        {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
-        },
+        { name: 'Certificación', url: 'https://www.dropbox.com/s/sxnzmul7p16zncz/Certificado_Jose.pdf?dl=0' },
+      ],
+    },
+    {
+      title: 'Git + GitHub',
+      subtitle: 'Curso online de 7 horas impartido por Udemy.',
+      image: require('./assets/images/git.png'),
+      footerLink: [
+        { name: 'Certificación', url: 'https://www.dropbox.com/s/97cqq7adcexsafz/UC-OI7D5T86.pdf?dl=0' },
+      ],
+    },
+    {
+      title: 'New Relic',
+      subtitle: 'Certificación New Relic Certified Performance Pro obtenida en New Relic University.',
+      image: require('./assets/images/new relic.png'),
+      footerLink: [
+        { name: 'Certificación', url: 'https://www.dropbox.com/s/0v9twsk1u37ivvn/new%20relic.pdf?dl=0' },
+      ],
+    },
+    {
+      title: 'Curso el Futuro del Desarrollo Web: HTML 5',
+      subtitle: 'Curso online de 50 horas impartido por la Escuela Superior Ingeniería Informática.',
+      image: require('./assets/images/html.png'),
+      footerLink: [
+        { name: 'Certificación', url: 'https://www.dropbox.com/s/pf3x43p4kpqfoph/El%20futuro%20del%20desarrollo%20web%3A%20HTML5.pdf?dl=0' },
+        { name: 'Certificación', url: 'https://www.dropbox.com/s/87hgsqk90euh5al/Maquetaci%C3%B3n%20web%20HTML-CSS.pdf?dl=0' },
+      ],
+    },
+    {
+      title: 'Programa de alfabetización informacional',
+      subtitle: 'Curso online de 36 horas impartido por la biblioteca de la Universidad de Jaén.',
+      image: require('./assets/images/Escudo UJA br17.gif'),
+      footerLink: [
+        { name: 'Certificación', url: 'https://www.dropbox.com/s/4748nde46cmp15x/Curso%20Biblioteca.pdf?dl=0' },
+      ],
+    },
+    {
+      title: 'Carta recomendación Ilocad',
+      subtitle: '',
+      image: require('./assets/images/ilocad.png'),
+      footerLink: [
+        { name: 'Carta', url: 'https://www.dropbox.com/s/q1e5ob05v1cx4qn/Certificado%20ILOCAD.pdf?dl=0' },
+      ],
+    },
+    {
+      title: 'Carta recomendación Fibgar',
+      subtitle: '',
+      image: require('./assets/images/fibgar.png'),
+      footerLink: [
+        { name: 'Carta', url: 'https://www.dropbox.com/s/y1h1l3xp5q8updn/CERTIFICADO%20FIBGAR.pdf?dl=0' },
       ],
     },
   ],
