@@ -41,7 +41,7 @@ const skillsSection = {
     ),
     emoji('⚡ En mi tiempo libre desarrollo de páginas web a medida.',),
     emoji(
-      '⚡ Aplico buenas prácticas, estándares de código, principios SOLID, metodologías ágiles y WPO.',
+      '⚡ Aplico buenas prácticas, estándares de código, TDD, metodologías ágiles y WPO.',
     ),
   ],
 
@@ -386,16 +386,16 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: 'TALKS',
+  title: 'Charlas',
   subtitle: emoji(
-    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅',
+    'A VECES IMPARTO FORMACIONES 😅',
   ),
 
   talks: [
     {
-      title: 'Build Actions For Google Assistant',
-      subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
+      title: 'Clean Code, git-flow & git',
+      subtitle: 'Ponéncia sobre buenas prácticas y estándares',
+      slides_url: 'https://www.dropbox.com/s/kcn3nfhtzgpwku8/Clean%20Code.pdf?dl=0',
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
@@ -416,9 +416,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji('Contact Me ☎️'),
+  title: emoji('Contáctame'),
   subtitle:
-      'Discuss a project or just want to say hi? My Inbox is open for all.',
+      'Si tiene alguna pregunta sobre un proyecto o solo quiere saludar, por favor escríbame y contestaré lo antes posible.',
   number: '687873208',
   emailAddress: 'lopezmolinaja@gmail.com',
 };

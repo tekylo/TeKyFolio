@@ -7,9 +7,9 @@ import { contactInfo } from '../../portfolio';
 
 export default function GithubProfileCard({ prof }) {
   if (prof.hireable !== null) {
-    prof.hireable = 'Yes';
+    prof.hireable = ' Si';
   } else {
-    prof.hireable = 'No';
+    prof.hireable = ' No';
   }
   return (
     <Fade bottom duration={1000} distance="20px">
@@ -36,9 +36,22 @@ export default function GithubProfileCard({ prof }) {
             )}
             <div className="opp-div">
               <span className="desc-prof">
-                Open for opportunities:
+                Abierto a oportunidades:
                 {prof.hireable}
               </span>
+            </div>
+            <div className="opp-div">
+              <a className="contact-detail" href={`tel:${contactInfo.number}`}>
+                {contactInfo.number}
+              </a>
+              <br />
+              <br />
+              <a
+                className="contact-detail-email"
+                href={`mailto:${contactInfo.emailAddress}`}
+              >
+                {contactInfo.emailAddress}
+              </a>
             </div>
             <SocialMedia />
           </div>
