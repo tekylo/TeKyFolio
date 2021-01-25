@@ -168,32 +168,52 @@ const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      role: 'Full-Stack Developer',
+      company: 'Meytel S.L.',
+      companylogo: require('./assets/images/Meytel.png'),
+      date: 'Abril 2018 – Actualidad',
       desc:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Actualmente Senior Developer Team Leader de publicidad del grupo Vocento.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Backend: Framework Symfony 2.7 – 3.4. Frontend: React.',
+        'Librería de publicidad en JS.',
+        'Desarrollo PHP 7.2, HTML, CSS, Twig, JavaScript, ES6, JQuery, MySQL, mongoDB.',
+        'Desarrollo aplicaciones y plugins web en WordPress.',
+        'Maquetación en CSS, amp.',
+        'Control de versiones Bitbucket, GIT, SVN.',
+        'Metodología SCRUM, Git Flow, Jenkis, Clean Code, Testing.',
+        'Resolución de incidencias JIRAS.',
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Full-Stack Developer',
+      company: 'Pulsar Technologies, S.A.',
+      companylogo: require('./assets/images/pulsar.png'),
+      date: 'Noviembre 2018 – Abril 2018',
       desc:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Formé parte del equipo de desarrollo para el cliente NetApp.',
+      descBullets: [
+        'Desarrollo aplicación web con framework propio para NetApp.',
+        'Desarrollo PHP 5.6, HTML, JavaScript, Angular 5, MySQL.',
+        'Desarrollo Base de Datos.',
+        'Resolución de incidencias en inglés con Redmine.',
+      ],
     },
     {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
+      role: 'Desarrollador de software y hardware',
+      company: 'QUANTION S.L.',
+      companylogo: require('./assets/images/quantion.png'),
+      date: 'Julio 2016 – Febrero 2017',
       desc:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Formé parte del equipo de I+D en los desarrollos a medidas de software y hardware',
+      descBullets: [
+        'Desarrollo en AngularJS.',
+        'Desarrollo de ATM para los hospitales Sanitas La Moraleja y Sanitas La zarzuela de Madrid.',
+        'Desarrollo de sistema multimedia en Hotel Ciudad de Úbeda y Hotel Anibal de Linares.',
+        'Desarrollo de software para interconexión con equipos.',
+        'Desarrollo API REST.',
+        'Desarrollo Base de Datos.',
+      ],
     },
   ],
 };
@@ -211,16 +231,32 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  title: 'Proyectos',
+  subtitle: 'ALGUNOS PROYECTOS EN LOS QUE PARTICIPÉ',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
+      image: require('./assets/images/pablo-vi-logo.png'),
+      link: 'http://pablovi.es/',
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
+      image: require('./assets/images/hanares.png'),
+      link: 'https://clinicahenares.com/',
+    },
+    {
+      image: require('./assets/images/pinar.png'),
+      link: 'https://centromedicopinar.es//',
+    },
+    {
+      image: require('./assets/images/logo-ujaen.png'),
+      link: 'https://simidat-apps.ujaen.es/nefele/#/Nefele',
+    },
+    {
+      image: require('./assets/images/historiate.png'),
+      link: 'http://historiate.com/',
+    },
+    {
+      image: require('./assets/images/comparativas.png'),
+      link: 'https://www.topcomparativas.com/',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -232,7 +268,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji('Cursos y Certificaciones'),
   subtitle:
-      'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
+      'Cursos, certificaciones, cartas de reconocimiento y algunas cosas interesantes que he hecho',
 
   achievementsCards: [
     {
