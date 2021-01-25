@@ -51,11 +51,11 @@ export default class Main extends Component {
           <Projects />
           <StartupProject />
           {/*<Blogs />*/}
-          {/*<Talks />*/}
+          <Talks />
           {/*<Twitter />*/}
           {/*<Podcast />*/}
           <Profile />
-          <Footer />
+          {/*<Footer />*/}
           <Top />
         </StyleProvider>
       </div>
