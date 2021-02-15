@@ -21,7 +21,7 @@
 }
 
 .startup-project-text {
-  display: flex;
+  display: contents;
   justify-content: space-between;
 }
 
