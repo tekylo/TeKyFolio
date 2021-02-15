@@ -279,8 +279,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certificación',
-          url:
-              'https://www.dropbox.com/s/ndf5xtl68ocowjf/DIPLOMA%20REACT%20Jos%C3%A9%20Antonio%20L%C3%B3pez%20Molina.pdf?dl=0',
+          url: 'https://www.dropbox.com/s/ndf5xtl68ocowjf/DIPLOMA%20REACT%20Jos%C3%A9%20Antonio%20L%C3%B3pez%20Molina.pdf?dl=0',
         }
       ],
     },
@@ -292,8 +291,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certificación',
-          url:
-              '',
+          url: 'https://www.dropbox.com/s/tfvfv22l4apgshm/Diploma_Magento_Meytel.pdf?dl=0',
         }
       ],
     },
