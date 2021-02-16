@@ -13,7 +13,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: 'TeKyLo',
   title: 'Hola, Soy José Antonio',
-  subTitle: emoji('Desde pequeño me apasionaba el mundo de la informática y ahora puedo trabajar de lo que disfruto 🤘 Tengo experiencia construyendo Web y Aplicaciones con JavaScript / React / PHP y algunas otras bibliotecas y frameworks.'),
+  subTitle: emoji('Desde pequeño me apasionaba el mundo de la informática y ahora puedo trabajar en lo que disfruto 🤘 Tengo experiencia construyendo Web y Aplicaciones con JavaScript / React / PHP y algunas otras bibliotecas y frameworks.'),
   resumeLink: cv,
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
@@ -39,7 +39,7 @@ const skillsSection = {
     emoji(
       '⚡ Siempre queriendo explorar nuevas tecnologías.',
     ),
-    emoji('⚡ En mi tiempo libre desarrollo de páginas web a medida.',),
+    emoji('⚡ En mi tiempo libre desarrollo páginas web a medida.',),
     emoji(
       '⚡ Aplico buenas prácticas, estándares de código, TDD, metodologías ágiles y WPO.',
     ),
